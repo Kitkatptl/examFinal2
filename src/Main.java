@@ -3,7 +3,7 @@ public class Main {
         Universite u = new Universite();
 
         Professeur prof = new Professeur("Arhse", 45, "Informatique", 100000);
-        Etudiant e1 = new Etudiant("Kartik", 21, "Génie logiciel", 3.4);
+        Etudiant e1 = new Etudiant("Kartik", 21, "Génie Logiciel", 3.4);
         Etudiant e2 = new Etudiant("Mahmoud", 20, "Génie Civil", 3.8);
 
         u.ajouterMembre(prof);
